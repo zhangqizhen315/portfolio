@@ -1,0 +1,38 @@
+{
+  "textReplacements": [
+    { "pattern": "海航集团", "replacement": "某大型企业集团", "flags": "g" },
+    { "pattern": "海航井通", "replacement": "某集团技术子公司", "flags": "g" },
+    { "pattern": "井通", "replacement": "某集团技术子公司", "flags": "g" },
+    { "pattern": "海航", "replacement": "某大型企业集团", "flags": "g" },
+    { "pattern": "HNA", "replacement": "某大型企业集团", "flags": "gi" },
+    { "pattern": "www\\.caimu\\.com", "replacement": "www.example.com", "flags": "gi" },
+    { "pattern": "福建采木工业互联网科技有限公司", "replacement": "某科技有限公司", "flags": "g" },
+    { "pattern": "采木资讯", "replacement": "平台资讯", "flags": "g" },
+    { "pattern": "采木平台", "replacement": "平台", "flags": "g" },
+    { "pattern": "采木网", "replacement": "平台", "flags": "g" },
+    { "pattern": "采木", "replacement": "平台", "flags": "g" },
+    { "pattern": "惠智", "replacement": "", "flags": "g" },
+    { "pattern": "http://libs\\.baidu\\.com", "replacement": "https://libs.baidu.com", "flags": "g" },
+    { "pattern": "http://cdn\\.staticfile\\.org", "replacement": "https://cdn.staticfile.org", "flags": "g" },
+    { "pattern": "620502198509222354", "replacement": "110101199001011234", "flags": "g" }
+  ],
+  "preserve": [
+    { "term": "张启震", "reason": "用户已确认为本人姓名，作品集署名，不脱敏" },
+    { "term": "SRM", "reason": "通用行业术语（供应商关系管理系统），非机构标识" }
+  ],
+  "excludeFiles": [
+    {
+      "project": "02-flex-benefits",
+      "paths": ["企业用户管理.html", "登录！！.html", "images/企业用户管理/", "images/登录！！/"],
+      "reason": "直接嵌入的真实\"中核集团电子商城\"后台管理界面与登录页截图，含疑似真实姓名/手机号数据；不是本项目设计产出，整体不拷贝，非文字替换问题"
+    },
+    {
+      "project": "07-matching-core",
+      "paths": ["采木资讯.html", "files/采木资讯/", "images/采木资讯/"],
+      "reason": "与\"采木资讯\"品牌强绑定的专属页面及资源，直接删除比逐处改写更干净"
+    }
+  ],
+  "neverAppear": [
+    { "term": "58所", "project": "06-ic-design-platform", "reason": "文件名指向性推断，未在文档正文出现，案例文案不出现此词或任何机构编号，不发布原始文档" }
+  ]
+}

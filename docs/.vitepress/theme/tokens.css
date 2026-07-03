@@ -1,0 +1,32 @@
+/* 从 ~/.claude/skills/design-system-prototype/tokens-all.json 转换而来，
+   作为作品集网站整体样式（导航/正文/按钮等外壳）的数值来源。
+   不影响 public/prototypes、public/screenshots 下的原型内容本身。 */
+:root {
+  --ds-color-primary: #0067DE;
+  --ds-color-secondary: #267EE2;
+  --ds-color-deep: #0058BC;
+  --ds-color-primary-tint: #E4F6FF;
+
+  --ds-color-title: #333333;
+  --ds-color-text: #666666;
+  --ds-color-subtext: #999999;
+  --ds-color-border-split: #D7D7D7;
+  --ds-color-divider: #D9D9D9;
+  --ds-color-surface: #F5F5F5;
+  --ds-color-background: #F6F7F9;
+
+  --ds-color-success: #18BE6A;
+  --ds-color-warning: #FE9900;
+  --ds-color-error: #ED4015;
+
+  --ds-font-zh: "Microsoft YaHei", "Source Han Sans", "PingFang SC";
+
+  --ds-space-1: 4px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-6: 24px;
+  --ds-space-8: 32px;
+
+  --ds-radius-button: 4px;
+}

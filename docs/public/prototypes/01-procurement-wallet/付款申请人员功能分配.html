@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>某大型企业集团钱包</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+  <!--
+  <link rel="canonical" href="http://www.example.com/">
+  -->
+
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="assets/css/hht.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，严重影响正常阅读。 请 <a
+  href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+<!-- 主体内容 开始 -->
+
+<div class="hht-function-box">
+	<div class="hht-function-menuBox hht-la-left">
+    	<span class="hht-help-menuTit">某大型企业集团</span>
+    	<ul class="hht-help-lNav">
+        	<li>
+            	<a href="#1">董事局领导</a>
+                <ul>
+                	<li>
+                    	<a href="#">+ 这里有三级下拉</a>
+                    	<ul>
+                            <li><a href="#">目录1</a></li>
+                            <li><a href="#">目录2</a></li>
+                            <li><a href="#">目录3</a></li>
+                		</ul>
+                    </li>
+                    <li><a href="#">领导2</a></li>
+                    <li><a href="#">领导3</a></li>
+                </ul>
+            </li>
+            <li>
+            	<a href="#2">大目录</a>
+                <ul>
+					<li><a href="#">目录1</a></li>
+                    <li><a href="#">目录2</a></li>
+                    <li><a href="#">目录3</a></li>
+                </ul>
+            </li>
+            <li>
+            	<a href="#2">大目录</a>
+                <ul>
+					<li><a href="#">目录1</a></li>
+                    <li><a href="#">目录2</a></li>
+                    <li><a href="#">目录3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="hht-la-right">
+      <p class="am-text-left am-text-sm">双击您选定的自定义收件人</p>
+      <div class="hht-form">
+        <label>请输入姓名：</label>
+        <div class="hht-u-lg-10">
+            <input type="text" class="am-input-lg" />
+            <button class="hht-btn">查询</button>
+        </div>
+        
+        <div class="hht-u-lg-12 hht-function-info">
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+            <p>数据1</p>
+        </div>
+        
+        <div class="hht-u-lg-12">
+          <p class="am-text-left am-text-sm">双击您选定的自定义收件人</p>
+          <textarea class="" rows="5" id="doc-ta-1" style="width:100%;"></textarea>
+        </div>
+      </div>
+  </div>
+</div><!--最外层包裹 END-->
+	
+<!-- 主体内容 结束 -->
+
+<!--[if lt IE 9]>
+<script src="https://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/polyfill/rem.min.js"></script>
+<script src="assets/js/polyfill/respond.min.js"></script>
+<script src="assets/js/amazeui.legacy.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="assets/css/amazeui.min-ie.css">
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/amazeui.min.js"></script>
+<!--<![endif]-->
+
+<script>
+//导航点击下拉展示
+$(document).ready(function()
+{
+	$(".hht-help-lNav a").click(function()
+    {
+		$(this).css({backgroundImage:"url(assets/images/down-sanj.png)"}).next(".hht-help-lNav ul").slideToggle(300).siblings(".hht-help-lNav ul").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:"url(assets/images/right-sanj.png)"});
+	});
+	
+});
+</script>
+</body>
+</html>

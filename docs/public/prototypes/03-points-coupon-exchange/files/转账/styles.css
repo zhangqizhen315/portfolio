@@ -1,0 +1,263 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-0px;
+  width:750px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u1032_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:750px;
+  height:1301px;
+}
+#u1032 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:750px;
+  height:1301px;
+}
+#u1033 {
+  position:absolute;
+  left:2px;
+  top:642px;
+  width:746px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1034_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:442px;
+  height:56px;
+}
+#u1034 {
+  position:absolute;
+  left:142px;
+  top:210px;
+  width:442px;
+  height:56px;
+}
+#u1035 {
+  position:absolute;
+  left:2px;
+  top:20px;
+  width:438px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1036_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:101px;
+  height:32px;
+}
+#u1036 {
+  position:absolute;
+  left:157px;
+  top:178px;
+  width:101px;
+  height:32px;
+  font-size:25px;
+}
+#u1037 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:101px;
+  white-space:nowrap;
+}
+#u1038_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:696px;
+  height:276px;
+}
+#u1038 {
+  position:absolute;
+  left:21px;
+  top:473px;
+  width:696px;
+  height:276px;
+}
+#u1039 {
+  position:absolute;
+  left:2px;
+  top:130px;
+  width:692px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u1040_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:101px;
+  height:32px;
+}
+#u1040 {
+  position:absolute;
+  left:48px;
+  top:427px;
+  width:101px;
+  height:32px;
+  font-size:25px;
+}
+#u1041 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:101px;
+  white-space:nowrap;
+}
+#u1042 {
+  position:absolute;
+  left:190px;
+  top:413px;
+  width:512px;
+  height:60px;
+}
+#u1042_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:512px;
+  height:60px;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u1042_input {
+  color:#000000;
+}
+#u1042_image_sketch {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:518px;
+  height:66px;
+  -webkit-transform:rotate(NaNdeg);
+  -moz-transform:rotate(NaNdeg);
+  -ms-transform:rotate(NaNdeg);
+  transform:rotate(NaNdeg);
+}
+#u1043_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:101px;
+  height:32px;
+}
+#u1043 {
+  position:absolute;
+  left:48px;
+  top:331px;
+  width:101px;
+  height:32px;
+  font-size:25px;
+}
+#u1044 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:101px;
+  white-space:nowrap;
+}
+#u1045 {
+  position:absolute;
+  left:190px;
+  top:317px;
+  width:512px;
+  height:60px;
+}
+#u1045_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:512px;
+  height:60px;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:25px;
+  text-decoration:none;
+  color:#000000;
+}
+#u1045_input {
+  color:#000000;
+}
+#u1045_image_sketch {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:518px;
+  height:66px;
+  -webkit-transform:rotate(NaNdeg);
+  -moz-transform:rotate(NaNdeg);
+  -ms-transform:rotate(NaNdeg);
+  transform:rotate(NaNdeg);
+}
+#u1045_input:disabled {
+  color:grayText;
+}
+#u1046_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:631px;
+  height:86px;
+}
+#u1046 {
+  position:absolute;
+  left:62px;
+  top:774px;
+  width:631px;
+  height:86px;
+  font-size:25px;
+  color:#FFFFFF;
+}
+#u1047 {
+  position:absolute;
+  left:2px;
+  top:27px;
+  width:627px;
+  word-wrap:break-word;
+}
+#u1048 {
+  position:absolute;
+  left:8px;
+  top:0px;
+  width:100px;
+  height:100px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}
+#u1049 {
+  position:absolute;
+  left:62px;
+  top:774px;
+  width:631px;
+  height:86px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}

@@ -1,0 +1,37 @@
+@import './tokens.css';
+
+/* 用 design-system-prototype 的设计令牌覆盖 VitePress 默认主题变量，
+   只影响页面外壳（导航/侧边栏/正文排版/按钮），不涉及 public/ 下的原型内容。 */
+:root {
+  /* 品牌色：链接、侧边栏高亮、搜索高亮等都会跟着变 */
+  --vp-c-brand-1: var(--ds-color-primary);
+  --vp-c-brand-2: var(--ds-color-secondary);
+  --vp-c-brand-3: var(--ds-color-deep);
+  --vp-c-brand-soft: var(--ds-color-primary-tint);
+
+  /* 正文文字层级 */
+  --vp-c-text-1: var(--ds-color-title);
+  --vp-c-text-2: var(--ds-color-text);
+  --vp-c-text-3: var(--ds-color-subtext);
+
+  /* 背景与分割线 */
+  --vp-c-bg-alt: var(--ds-color-background);
+  --vp-c-bg-soft: var(--ds-color-surface);
+  --vp-c-divider: var(--ds-color-divider);
+  --vp-c-gutter: var(--ds-color-divider);
+  --vp-c-border: var(--ds-color-border-split);
+
+  /* 语义色 */
+  --vp-c-success-1: var(--ds-color-success);
+  --vp-c-warning-1: var(--ds-color-warning);
+  --vp-c-danger-1: var(--ds-color-error);
+
+  /* 中文字体 */
+  --vp-font-family-base: var(--ds-font-zh), 'Inter', ui-sans-serif, system-ui,
+    sans-serif;
+}
+
+/* 按钮圆角与 tokens.button.radiusPx 保持一致 */
+.VPButton {
+  border-radius: var(--ds-radius-button);
+}
