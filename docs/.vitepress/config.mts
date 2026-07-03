@@ -8,6 +8,10 @@ export default defineConfig({
   // GitHub Pages 地址是 https://zhangqizhen315.github.io/portfolio/，需要这个前缀。
   base: '/portfolio/',
 
+  // 设计系统的 tokens-all.json 只定义了浅色一套数值，没有暗色变体，
+  // 关闭主题切换避免暗色模式下颜色对比度失控。注意 appearance 是顶层配置项，不在 themeConfig 下。
+  appearance: false,
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
