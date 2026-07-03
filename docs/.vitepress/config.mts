@@ -4,11 +4,9 @@ export default defineConfig({
   title: '作品集',
   description: '个人作品集网站 —— 历史项目案例与交互原型',
 
-  // base 取值取决于实施阶段确定的仓库名：
-  // - 若部署到 <user>.github.io 根仓库或绑定自定义域名，填 '/'
-  // - 若部署到普通仓库（如 <user>.github.io/portfolio），填 '/portfolio/'
-  // 环节⑨（GitHub Pages 部署配置）确定仓库名后再改，暂用 '/' 便于本地开发。
-  base: '/',
+  // 部署到 zhangqizhen315/portfolio 仓库（非 <user>.github.io 根仓库），
+  // GitHub Pages 地址是 https://zhangqizhen315.github.io/portfolio/，需要这个前缀。
+  base: '/portfolio/',
 
   themeConfig: {
     nav: [
